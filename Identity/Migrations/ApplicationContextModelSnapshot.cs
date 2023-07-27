@@ -49,6 +49,7 @@ namespace Identity.Migrations
                     b.ToTable("AspNetRoles", (string)null);
                 });
 
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.Property<int>("Id")
